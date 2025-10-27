@@ -1,0 +1,22 @@
+{
+    "document_hash": "06103eb17855eda967bb3d211afefc0315932676d5d566890b1da45c7a57320f",
+    "storage_id": "fixed_storage_id",
+    "folder_path": "",
+    "file_name": "mountain_sky.csv",
+    "file_weight": 398,
+    "file_type": "csv",
+    "upload_date": "2025-06-06T14:28:23.632490",
+    "validations": [
+        {
+            "txid": "SIM_OBZQSJXQTE",
+            "confirmed_round": 101019,
+            "fee": 1000,
+            "first_valid": 100588,
+            "last_valid": 101604,
+            "round_time": "2025-06-06T16:28:38.773643",
+            "sender": "JZYEFRR2PSXVDJ24QTXJBO6PKW3TUNJKPHTK3JHVE5PDS7HTVPINXHADPU",
+            "receiver": "VUV7F7FPRTOO5XJ2RXL2HXWXMD6NB4YCNX5Q36EK3F5H6VLJGMNRQTOLMA",
+            "note": "Notarization transaction from owner to smart contract"
+        }
+    ]
+}

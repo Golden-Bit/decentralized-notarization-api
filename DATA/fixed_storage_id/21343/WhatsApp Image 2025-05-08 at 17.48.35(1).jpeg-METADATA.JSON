@@ -1,0 +1,22 @@
+{
+    "document_hash": "bc64c9974b688181d10a9b81cd0fac2c288eb80300b34c5d655ee0a9af190528",
+    "storage_id": "fixed_storage_id",
+    "folder_path": "21343",
+    "file_name": "WhatsApp Image 2025-05-08 at 17.48.35(1).jpeg",
+    "file_weight": 76099,
+    "file_type": "jpeg",
+    "upload_date": "2025-05-12T02:30:54.121192",
+    "validations": [
+        {
+            "txid": "SIM_K0VWP34Y6V",
+            "confirmed_round": 182692,
+            "fee": 1000,
+            "first_valid": 164450,
+            "last_valid": 183137,
+            "round_time": "2025-05-12T04:30:59.951972",
+            "sender": "JZYEFRR2PSXVDJ24QTXJBO6PKW3TUNJKPHTK3JHVE5PDS7HTVPINXHADPU",
+            "receiver": "VUV7F7FPRTOO5XJ2RXL2HXWXMD6NB4YCNX5Q36EK3F5H6VLJGMNRQTOLMA",
+            "note": "Notarization transaction from owner to smart contract"
+        }
+    ]
+}

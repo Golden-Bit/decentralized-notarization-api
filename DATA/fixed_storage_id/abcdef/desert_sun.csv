@@ -1,0 +1,44 @@
+# Distribuzione oraria (kW) – Giorno campione
+Ora,Potenza (kW)
+0,0
+1,0
+2,0
+3,0
+4,0
+5,0
+6,200
+7,600
+8,1500
+9,2500
+10,3700
+11,4500
+12,4700
+13,4600
+14,4200
+15,3300
+16,2000
+17,900
+18,300
+19,50
+20,0
+21,0
+22,0
+23,0
+
+# Produzione media mensile (MWh)
+Mese,Produzione media (MWh)
+Gen,210
+Feb,240
+Mar,300
+Apr,350
+Mag,410
+Giu,430
+Lug,450
+Ago,440
+Set,380
+Ott,320
+Nov,260
+Dic,220
+
+# Produzione totale annua
+4010

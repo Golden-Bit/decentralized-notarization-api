@@ -1,0 +1,23 @@
+{
+    "autore": "Test Author",
+    "descrizione": "Test PDF file",
+    "document_hash": "c9f9fcaeea88bdfb1ab8b5cfbc189ba50aa0ed196b62bcc97ea67048605560c6",
+    "storage_id": "test_storage",
+    "file_name": "sample.pdf",
+    "file_weight": 2280451,
+    "file_type": "pdf",
+    "upload_date": "2025-02-11T13:47:45.836301",
+    "validations": [
+        {
+            "txid": "SIM_V1PNRTI9D5",
+            "confirmed_round": 157505,
+            "fee": 1000,
+            "first_valid": 112459,
+            "last_valid": 158371,
+            "round_time": "2025-02-11T13:47:54.066245",
+            "sender": "OWNER_ADDRESS_ABCDEF",
+            "receiver": "SMART_CONTRACT_ADDRESS_123456",
+            "note": "Simulated transaction from owner to smart contract"
+        }
+    ]
+}

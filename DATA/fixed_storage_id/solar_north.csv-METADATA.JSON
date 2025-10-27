@@ -1,0 +1,22 @@
+{
+    "document_hash": "3963db76ccbc4d8d2d7dc32adc3abc2600be515bb15875e19e0326c388b3715a",
+    "storage_id": "fixed_storage_id",
+    "folder_path": "",
+    "file_name": "solar_north.csv",
+    "file_weight": 395,
+    "file_type": "csv",
+    "upload_date": "2025-06-06T14:18:20.057580",
+    "validations": [
+        {
+            "txid": "SIM_H6ZLX96ZMC",
+            "confirmed_round": 121220,
+            "fee": 1000,
+            "first_valid": 104365,
+            "last_valid": 121580,
+            "round_time": "2025-06-06T16:18:31.435471",
+            "sender": "JZYEFRR2PSXVDJ24QTXJBO6PKW3TUNJKPHTK3JHVE5PDS7HTVPINXHADPU",
+            "receiver": "VUV7F7FPRTOO5XJ2RXL2HXWXMD6NB4YCNX5Q36EK3F5H6VLJGMNRQTOLMA",
+            "note": "Notarization transaction from owner to smart contract"
+        }
+    ]
+}

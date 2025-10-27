@@ -1,0 +1,22 @@
+{
+    "document_hash": "79864f95640889ca0246a3ecfa99357d4e744e1d4064e6e6177ab3f9e8518cde",
+    "storage_id": "fixed_storage_id",
+    "folder_path": "21343/bb",
+    "file_name": "report_magazzino.pdf",
+    "file_weight": 5304,
+    "file_type": "pdf",
+    "upload_date": "2025-05-12T02:42:20.162932",
+    "validations": [
+        {
+            "txid": "SIM_327MZXKGJV",
+            "confirmed_round": 161583,
+            "fee": 1000,
+            "first_valid": 143586,
+            "last_valid": 162205,
+            "round_time": "2025-05-12T04:42:28.667122",
+            "sender": "JZYEFRR2PSXVDJ24QTXJBO6PKW3TUNJKPHTK3JHVE5PDS7HTVPINXHADPU",
+            "receiver": "VUV7F7FPRTOO5XJ2RXL2HXWXMD6NB4YCNX5Q36EK3F5H6VLJGMNRQTOLMA",
+            "note": "Notarization transaction from owner to smart contract"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "document_hash": "01556308fe8bf73cd612fa1aba7b11a1e0a6d5282514bda96a82d0419c082584",
+    "storage_id": "fixed_storage_id",
+    "folder_path": "abcdef",
+    "file_name": "desert_sun.csv",
+    "file_weight": 401,
+    "file_type": "csv",
+    "upload_date": "2025-06-06T14:13:13.895271",
+    "validations": [
+        {
+            "txid": "SIM_YH8RBTA70Q",
+            "confirmed_round": 187105,
+            "fee": 1000,
+            "first_valid": 155942,
+            "last_valid": 187665,
+            "round_time": "2025-06-06T16:13:31.586113",
+            "sender": "JZYEFRR2PSXVDJ24QTXJBO6PKW3TUNJKPHTK3JHVE5PDS7HTVPINXHADPU",
+            "receiver": "VUV7F7FPRTOO5XJ2RXL2HXWXMD6NB4YCNX5Q36EK3F5H6VLJGMNRQTOLMA",
+            "note": "Notarization transaction from owner to smart contract"
+        }
+    ]
+}

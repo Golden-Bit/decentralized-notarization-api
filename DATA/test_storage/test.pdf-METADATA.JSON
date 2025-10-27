@@ -1,0 +1,23 @@
+{
+    "description": "Documento di test",
+    "author": "Flutter Tester",
+    "document_hash": "8da51e223fd6641d2c5156edefb4cd55c518a11e5412e94c93833d55af98bed0",
+    "storage_id": "test_storage",
+    "file_name": "test.pdf",
+    "file_weight": 23,
+    "file_type": "pdf",
+    "upload_date": "2025-02-11T14:03:10.171903",
+    "validations": [
+        {
+            "txid": "SIM_TMY4776P8D",
+            "confirmed_round": 134518,
+            "fee": 1000,
+            "first_valid": 123262,
+            "last_valid": 134688,
+            "round_time": "2025-02-11T14:03:16.197188",
+            "sender": "OWNER_ADDRESS_ABCDEF",
+            "receiver": "SMART_CONTRACT_ADDRESS_123456",
+            "note": "Simulated transaction from owner to smart contract"
+        }
+    ]
+}

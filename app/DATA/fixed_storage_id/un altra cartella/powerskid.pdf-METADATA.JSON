@@ -1,0 +1,22 @@
+{
+    "document_hash": "b9e806c0c09dccfb58b62b19daebfdf44ae749763a544aae66f5bdf85a238a44",
+    "storage_id": "fixed_storage_id",
+    "folder_path": "un altra cartella",
+    "file_name": "powerskid.pdf",
+    "file_weight": 24462,
+    "file_type": "pdf",
+    "upload_date": "2025-07-11T11:55:31.748585",
+    "validations": [
+        {
+            "txid": "SIM_BZBT387BWC",
+            "confirmed_round": 157339,
+            "fee": 1000,
+            "first_valid": 145354,
+            "last_valid": 157676,
+            "round_time": "2025-07-11T13:55:49.492522",
+            "sender": "JZYEFRR2PSXVDJ24QTXJBO6PKW3TUNJKPHTK3JHVE5PDS7HTVPINXHADPU",
+            "receiver": "VUV7F7FPRTOO5XJ2RXL2HXWXMD6NB4YCNX5Q36EK3F5H6VLJGMNRQTOLMA",
+            "note": "Notarization transaction from owner to smart contract"
+        }
+    ]
+}

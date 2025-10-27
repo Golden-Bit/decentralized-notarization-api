@@ -1,0 +1,22 @@
+{
+    "document_hash": "bab626cb0a0ae632b9ade212ab8e701ee03ab6bdfb537eaf5da8a0b356c18fec",
+    "storage_id": "fixed_storage_id",
+    "folder_path": "",
+    "file_name": "config_corretta.ovpn",
+    "file_weight": 1192,
+    "file_type": "ovpn",
+    "upload_date": "2025-07-14T21:58:00.671082",
+    "validations": [
+        {
+            "txid": "SIM_U2YM3KRYAY",
+            "confirmed_round": 103179,
+            "fee": 1000,
+            "first_valid": 100536,
+            "last_valid": 103284,
+            "round_time": "2025-07-14T23:58:12.279006",
+            "sender": "JZYEFRR2PSXVDJ24QTXJBO6PKW3TUNJKPHTK3JHVE5PDS7HTVPINXHADPU",
+            "receiver": "VUV7F7FPRTOO5XJ2RXL2HXWXMD6NB4YCNX5Q36EK3F5H6VLJGMNRQTOLMA",
+            "note": "Notarization transaction from owner to smart contract"
+        }
+    ]
+}
