@@ -1,0 +1,22 @@
+{
+    "document_hash": "c9f9fcaeea88bdfb1ab8b5cfbc189ba50aa0ed196b62bcc97ea67048605560c6",
+    "storage_id": "fixed_storage_id",
+    "folder_path": "",
+    "file_name": "sample_5 (1).pdf",
+    "file_weight": 2280451,
+    "file_type": "pdf",
+    "upload_date": "2025-11-09T23:41:09.988917",
+    "validations": [
+        {
+            "network": "algo",
+            "type": "unexpected_error",
+            "error": "Impossibile ricavare asset_id dalla risposta: {'error': {'code': 400}}",
+            "timestamp": "2025-11-09T23:41:10.761450",
+            "txid": null,
+            "sender": null,
+            "receiver": null,
+            "note": null,
+            "round_time": "2025-11-09T23:41:10.761450"
+        }
+    ]
+}

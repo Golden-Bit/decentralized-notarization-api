@@ -4,19 +4,18 @@
     "document_hash": "c9f9fcaeea88bdfb1ab8b5cfbc189ba50aa0ed196b62bcc97ea67048605560c6",
     "storage_id": "test_storage",
     "folder_path": "",
-    "file_name": "sample.pdf",
+    "file_name": "sample_6.pdf",
     "file_weight": 2280451,
     "file_type": "pdf",
-    "upload_date": "2025-11-09T22:02:49.572062",
+    "upload_date": "2025-11-09T23:49:49.967413",
     "validations": [
         {
-            "scenario": "scenario1",
             "network": "algo",
             "type": "asa_mint",
-            "timestamp": "2025-11-09T22:02:53.535619",
-            "asset_id": 1227,
+            "timestamp": "2025-11-09T23:49:55.141051",
+            "asset_id": 1248,
             "unit_name": "DOCC9F9F",
-            "asset_name": "sample",
+            "asset_name": "sample_6",
             "addresses": {
                 "creator": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
                 "manager": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
@@ -24,27 +23,29 @@
                 "freeze": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
                 "clawback": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE"
             },
-            "confirmed_round": 45100,
+            "confirmed_round": 47649,
             "fee": 1000,
-            "first_valid": 45098,
-            "last_valid": 46098,
+            "first_valid": 47647,
+            "last_valid": 48647,
             "genesis_id": "sandnet-v1",
             "genesis_hash_b64": "WpHlM5H9t+y6q+PwqttGrkE3ts8O3f21g9XcQXHadwY=",
-            "metadata_url": "http://127.0.0.1:8077/notarization-api/storage/test_storage/download/sample.pdf",
-            "metadata_sha256_hex": "a5cacf69f807837c35fb17bff42daaf379406b5fdc252da01229e49bb80579ab",
-            "metadata_sha256_b64": "pcrPafgHg3w1+xe/9C2q83lAa1/cJS2gEinkm7gFeas=",
-            "metadata_len": 150,
+            "metadata_url": "http://127.0.0.1:8077/notarization-api/storage/test_storage/metadata-onchain/sample_6.pdf",
+            "metadata_sha256_hex": "dab4ac56f707ee338cc66bee6f260a88ee75483e0683cd1264eab8bfa92cb458",
+            "metadata_sha256_b64": "2rSsVvcH7jOMxmvubyYKiO51SD4Gg80SZOq4v6kstFg=",
+            "metadata_len": 154,
+            "onchain_metadata_file": "sample_6.pdf-ONCHAIN-METADATA.JSON",
+            "content_download_url": "http://127.0.0.1:8077/notarization-api/storage/test_storage/download/sample_6.pdf",
             "raw": {
-                "asset-index": 1227,
-                "confirmed-round": 45100,
+                "asset-index": 1248,
+                "confirmed-round": 47649,
                 "pool-error": "",
                 "txn": {
-                    "sig": "WC7BKFpZItiUOkiO6jYg1PzAStqwtFS7ap1HV5Cd4F4XlR8nuF3ykAFF3x+GZg8ZchkyVAhYCGoc6BQI/fjvBg==",
+                    "sig": "rN2osxZbNZsi6GE91OhgFLoqAX/zaNf8OrP6AghFQn6CeM2xsV6pOISCV2WvoHy7rM3GdWTbJEJq0RVliLnQDQ==",
                     "txn": {
                         "apar": {
-                            "am": "pcrPafgHg3w1+xe/9C2q83lAa1/cJS2gEinkm7gFeas=",
-                            "an": "sample",
-                            "au": "http://127.0.0.1:8077/notarization-api/storage/test_storage/download/sample.pdf",
+                            "am": "2rSsVvcH7jOMxmvubyYKiO51SD4Gg80SZOq4v6kstFg=",
+                            "an": "sample_6",
+                            "au": "http://127.0.0.1:8077/notarization-api/storage/test_storage/metadata-onchain/sample_6.pdf",
                             "c": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
                             "f": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
                             "m": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
@@ -53,16 +54,21 @@
                             "un": "DOCC9F9F"
                         },
                         "fee": 1000,
-                        "fv": 45098,
+                        "fv": 47647,
                         "gen": "sandnet-v1",
                         "gh": "WpHlM5H9t+y6q+PwqttGrkE3ts8O3f21g9XcQXHadwY=",
-                        "lv": 46098,
-                        "note": "bm90YXJpemF0aW9uIHRlc3Rfc3RvcmFnZS9zYW1wbGUucGRm",
+                        "lv": 48647,
+                        "note": "bm90YXJpemF0aW9uIHRlc3Rfc3RvcmFnZS9zYW1wbGVfNi5wZGY=",
                         "snd": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
                         "type": "acfg"
                     }
                 }
-            }
+            },
+            "txid": "1248",
+            "sender": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
+            "receiver": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
+            "note": "notarization test_storage/sample_6.pdf",
+            "round_time": "2025-11-09T23:49:55.141051"
         }
     ]
 }

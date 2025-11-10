@@ -674,7 +674,44 @@ def download_item(storage_id: str, relative_path: str):
 
     # se non è né file né cartella
     raise HTTPException(status_code=404, detail="Percorso non trovato")
+# --- Scarica il JSON dei metadati standard (download diretto) ---
+@app.get("/storage/{storage_id}/metadata/{relative_path:path}",
+         summary="Download JSON metadati standard",
+         tags=["utility"])
+def download_metadata_json(storage_id: str, relative_path: str):
+    root = Path("DATA") / storage_id
+    target = _safe_target(root, relative_path)  # valida e normalizza
 
+    meta_path = target.parent / f"{target.name}-METADATA.JSON"
+    if not meta_path.exists():
+        raise HTTPException(404, "Metadati standard non trovati")
+
+    # Forza il download come allegato
+    return FileResponse(
+        path=meta_path,
+        media_type="application/json",
+        filename=meta_path.name
+    )
+
+
+# --- Scarica il JSON dei metadati ON-CHAIN salvato a file (download diretto) ---
+@app.get("/storage/{storage_id}/metadata-onchain/{relative_path:path}",
+         summary="Download JSON metadati on-chain",
+         tags=["utility"])
+def download_onchain_metadata_json(storage_id: str, relative_path: str):
+    root = Path("DATA") / storage_id
+    target = _safe_target(root, relative_path)  # valida e normalizza
+
+    onchain_meta_path = target.parent / f"{target.name}-ONCHAIN-METADATA.JSON"
+    if not onchain_meta_path.exists():
+        raise HTTPException(404, "Metadati on-chain non trovati")
+
+    # Forza il download come allegato
+    return FileResponse(
+        path=onchain_meta_path,
+        media_type="application/json",
+        filename=onchain_meta_path.name
+    )
 
 
 if __name__ == "__main__":

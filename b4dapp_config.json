@@ -1,0 +1,14 @@
+{
+  "app_name": "dapp_225920120",
+  "dapp_id": "a7fb0d71-047f-43aa-9909-0b39b116d6eb",
+  "secret_key": "953c4ccc-1ccc-4df2-af2e-d5ee342b5568",
+  "blockchain": "ALGO",
+  "base_url": "http://65.21.178.127:8080",
+  "email": "luca@luca.com",
+  "hsm_id": "hsm_test_0",
+  "algod_id": "algod_client_test_0",
+  "indexer_id": "indexer_client_test_0",
+  "updated_at": "2025-11-09T23:47:04.667365+00:00",
+  "address": "IW2AWSOSAWHOPPIWMTV6ILYAHANVKI6V5A6735MCSD4WXWOC235NELT3TE",
+  "label": "address_751332430"
+}
