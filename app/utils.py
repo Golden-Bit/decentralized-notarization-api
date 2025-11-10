@@ -236,7 +236,7 @@ def simulate_transaction(storage_id: str, relative_path: str):
             decimals=0,
             default_frozen=False,
             note=note,
-            metadata_url=metadata_url,          # URL esposto dall'API → on-chain metadata file
+            metadata_url="",#metadata_url,          # URL esposto dall'API → on-chain metadata file
             metadata=onchain_meta_str,          # JSON on-chain (il cui SHA-256 è metadata_sha256_*)
             roles_mode="self",
             ensure_min_balance=None,
