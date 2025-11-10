@@ -147,7 +147,7 @@ def _build_content_download_url(storage_id: str, relative_path: str) -> str:
     URL pubblico per scaricare il FILE originale.
     Endpoint: /storage/{storage_id}/download/{relative_path}
     """
-    base = os.getenv("NOTARIZATION_PUBLIC_BASE_URL", "http://127.0.0.1:8077/notarization-api").rstrip("/")
+    base = os.getenv("NOTARIZATION_PUBLIC_BASE_URL", "http://34.13.153.241:8666/notarization-api").rstrip("/")
     encoded_rel = quote(relative_path.strip("/"), safe="/")
     return f"{base}/storage/{storage_id}/download/{encoded_rel}"
 
