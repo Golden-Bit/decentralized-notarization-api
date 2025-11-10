@@ -1,3 +1,4 @@
+import logging
 import os
 import base64
 import hashlib
@@ -49,6 +50,29 @@ app.add_middleware(
     allow_methods=["*"],  # Permetti tutti i metodi (GET, POST, OPTIONS, ecc.)
     allow_headers=["*"],  # Permetti tutti gli headers
 )
+
+# Logger per debug notarizzazione
+logger = logging.getLogger("notarization")
+if not logger.handlers:
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+
+def _log_scenario1_request(doc):
+    """
+    Stampa in console il payload ricevuto da /scenario1/notarize,
+    redigendo la stringa base64 (solo primi caratteri + lunghezza).
+    """
+    try:
+        # Pydantic v2: model_dump(); v1: dict()
+        data = doc.model_dump() if hasattr(doc, "model_dump") else doc.dict()
+        b64 = data.get("document_base64")
+        if isinstance(b64, str):
+            data["document_base64"] = f"<base64 len={len(b64)}> {b64[:80]}..."
+        else:
+            data["document_base64"] = "<missing or non-string>"
+        logger.info("[Scenario1/notarize] Request payload:\n%s", json.dumps(data, ensure_ascii=False, indent=2))
+    except Exception as e:
+        logger.exception("Impossibile loggare il payload di Scenario1: %s", e)
+
 
 @app.get("/", tags=["Health Check"])
 def root():
@@ -267,6 +291,9 @@ def scenario1_notarize_document(doc: DocumentToNotarizeScenario1, background_tas
     }
     ```
     """
+
+    _log_scenario1_request(doc)
+
     validate_blockchains(doc.selected_chain)
 
     info = save_document_and_metadata(doc.document_base64,
