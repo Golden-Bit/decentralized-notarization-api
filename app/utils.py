@@ -41,7 +41,7 @@ from asset_manager.b4dapp_asset_manager import B4AssetManager, ApiError
 # Configurazione del singleton per l'asset manager
 # (parametri anche da variabili d'ambiente)
 # -----------------------------------------------------------------------------
-_MANAGER_SINGLETON: B4AssetManager | None = None
+"""_MANAGER_SINGLETON: B4AssetManager | None = None
 
 
 def _get_asset_manager() -> B4AssetManager:
@@ -77,7 +77,37 @@ def _get_asset_manager() -> B4AssetManager:
         topup_amount=topup_amount,
     )
     return _MANAGER_SINGLETON
+"""
 
+def _get_asset_manager() -> B4AssetManager:
+    base_url = os.getenv("B4_BASE_URL", "http://65.21.178.127:8080")
+    email = os.getenv("B4_EMAIL", "luca@luca.com")
+    password = os.getenv("B4_PASSWORD", "luca")
+    config_path = os.getenv("B4_CONFIG_PATH", "b4dapp_config.json")
+    blockchain = os.getenv("B4_BLOCKCHAIN", "ALGO")
+    hsm_id = os.getenv("B4_HSM_ID", "hsm_test_0")
+    algod_id = os.getenv("B4_ALGOD_ID", "algod_client_test_0")
+    indexer_id = os.getenv("B4_INDEXER_ID", "indexer_client_test_0")
+
+    from asset_manager.b4dapp_asset_manager import B4AssetManager as _B4
+    min_balance = int(os.getenv("B4_MIN_BALANCE", _B4.DEFAULT_MIN_BALANCE))
+    topup_amount = int(os.getenv("B4_TOPUP_AMOUNT", _B4.DEFAULT_TOPUP_AMOUNT))
+
+    # NIENTE singleton: ogni volta un manager nuovo
+    return B4AssetManager(
+        base_url=base_url,
+        email=email,
+        password=password,
+        config_path=config_path,
+        app_name=None,
+        wallet_label=None,
+        blockchain=blockchain,
+        hsm_id=hsm_id,
+        algod_id=algod_id,
+        indexer_id=indexer_id,
+        min_balance=min_balance,
+        topup_amount=topup_amount,
+    )
 
 # -----------------------------------------------------------------------------
 # Utility locali
